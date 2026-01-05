@@ -7,6 +7,32 @@ params:
   defaultTheme: "auto"
   showFooter: true
 
+  # 设置网站的标签页的图标，即 favicon
+  assets:
+      favicon: "favicon.png"
+      favicon16x16: "favicon.png"
+      favicon32x32: "favicon.png"
+      apple_touch_icon: "favicon.png"
+      safari_pinned_tab: "favicon.png"
+
+  # 评论系统配置
+  comments: true
+  giscus:
+    repo: "Tagtax7777/Blog"              # 仓库
+    repoId: "R_kgDOQz52SA"               # Repo ID
+    category: "Announcements"            # 分类
+    categoryId: "DIC_kwDOQz52SM4C0lxx"   # 分类 ID
+    mapping: "og:title"                  # 映射方式：网页标题
+    strict: "0"
+    reactionsEnabled: "1"
+    emitMetadata: "0"
+    inputPosition: "bottom"
+    lang: "zh-CN"
+    
+    lightTheme: "light"                  # 亮色模式下的 Giscus 主题
+    darkTheme: "transparent_dark"        # 暗色模式下的 Giscus 主题 (推荐 transparent_dark)
+
+
 languages:
   zh:
     languageName: "中文" # 展示的语言名
@@ -32,3 +58,4 @@ languages:
         - name: 关于
           pageRef: about/
           weight: 5
+

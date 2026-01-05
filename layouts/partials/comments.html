@@ -1,4 +1,6 @@
-<div id="tw-comment"></div>
+<div class="comments">
+    <div id="tw-comment"></div>
+</div>
 <script>
     // 默认是暗色，根目录下的配置中的主题默认也是暗色
     const getStoredTheme = () => localStorage.getItem("pref-theme") === "light" ? "{{ .Site.Params.giscus.lightTheme }}" : "{{ .Site.Params.giscus.darkTheme }}";
