@@ -7,7 +7,26 @@ params:
   defaultTheme: "auto"
   showFooter: true
 
-  # 设置网站的标签页的图标，即 favicon
+  # 1. 首页简介模块
+  homeInfoParams:
+    Title: "Tagtax's Blog"
+    Content: >
+      欢迎来到我的个人博客。
+      在这里记录我的技术学习、项目经验和生活随笔。
+      
+      👇 你可以在下面找到我的联系方式。
+
+  # 2. 社交图标
+  socialIcons:
+    - name: github
+      url: "https://github.com/Tagtax7777"
+    - name: bilibili
+      url: "https://www.bilibili.com/"
+    - name: email
+      url: "mailto:2280526609@qq.com"
+    # PaperMod 支持绝大多数常见图标，名字写对即可 (如 twitter, discord, youtube 等)
+
+  # 设置网站的标签页的图标
   assets:
       favicon: "favicon.png"
       favicon16x16: "favicon.png"

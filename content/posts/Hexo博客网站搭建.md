@@ -1,7 +1,7 @@
 ---
 date: 2025-01-30T18:45:48+08:00
 draft: false
-title: "HEXO博客网站搭建"
+title: "Hexo博客网站搭建"
 slug: "build-hexo-blog-website"
 ---
 
