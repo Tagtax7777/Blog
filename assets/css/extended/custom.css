@@ -1,0 +1,10 @@
+/* 1. 把上面的下边距清零 */
+.home-info {
+    margin-bottom: 40px !important;
+    min-height: auto; /* 防止有最小高度撑着 */
+}
+
+/* 2. 把下面的上边距/填充也清零 */
+#main > .post-entry:first-of-type {
+    margin-top: 40px !important;
+}

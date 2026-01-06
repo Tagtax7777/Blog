@@ -3,6 +3,8 @@ date: 2025-01-30T18:45:48+08:00
 draft: false
 title: "Hexo博客网站搭建"
 slug: "build-hexo-blog-website"
+categories: ["朝花夕拾"]
+tags: ["比赛", "学校"]
 ---
 
 ## 前言
