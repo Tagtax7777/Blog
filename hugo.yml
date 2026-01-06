@@ -3,9 +3,10 @@ languageCode: "zh-cn"
 title: "Tagtax's Blog"
 theme: "PaperMod"
 
+copyright: "© 2024-2026 [渝ICP备2025050259号](https://beian.miit.gov.cn/)"
+
 params:
   defaultTheme: "auto"
-  showFooter: true
 
   # 1. 首页简介模块
   homeInfoParams:
